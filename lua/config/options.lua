@@ -17,4 +17,5 @@ vim.opt.swapfile = false
 vim.opt.mousemoveevent = true
 vim.opt.termguicolors = true --bufferline
 
+-- Set clipboard to system clipboard
 vim.opt.clipboard:append("unnamedplus")
